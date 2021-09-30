@@ -7,10 +7,20 @@ Original file is located at
     https://colab.research.google.com/drive/1ZQPAkbeUlVt3BFtWKEp30Tl4lUkpSNV-
 
 # Genetic Algorithm
-As we use machine learning for making better and faster decisions, one can use artificial intelligence method called 'Genetic Algorithm' for optimizing the results further by letting algorithm evolve as it goes through iterations. Basic premise is that you start with set of possible solutions (randomly generated and mostly unfit for the problem) and rank them on fitness score for the given problem. Then you pick the 2 Top solutions (often referred as parent) that have high fitness score and then create another solution (referred as child) which takes best of features from both parents. This is done using cross over and mutation operations. The crossover operation involves swapping random parts of selected pairs (parents) to produce new and different offspring that become part of the new generation of solutions. Mutation involves substitution of some random part of a solution with some other random part of a solution. Finally, the child solution is added to the stack of solution and again, the solutions are ranked for fitness. This process is done again and again via many iterations till we reach a solution which is far superior than what we started with. Multiple runs (dozens to hundreds) are usually necessary to produce a very good result.
+As we use machine learning for making better and faster decisions, one can use artificial intelligence method called 'Genetic Algorithm'
+for optimizing the results further by letting algorithm evolve as it goes through iterations. Basic premise is that you start with set of
+possible solutions (randomly generated and mostly unfit for the problem) and rank them on fitness score for the given problem. Then you pick 
+the 2 Top solutions (often referred as parent) that have high fitness score and then create another solution (referred as child) which takes 
+best of features from both parents. This is done using cross over and mutation operations. The crossover operation involves swapping random 
+parts of selected pairs (parents) to produce new and different offspring that become part of the new generation of solutions. Mutation involves
+substitution of some random part of a solution with some other random part of a solution. Finally, the child solution is added to the stack of 
+solution and again, the solutions are ranked for fitness. This process is done again and again via many iterations till we reach a solution which
+is far superior than what we started with. Multiple runs (dozens to hundreds) are usually necessary to produce a very good result.
 
 # **8 Queens problem**
-There are many applications where Genetic Algorithm can be used especially where one does not know the exact solution and how to find it. One such problem is '8 Queens' puzzle. The objective here is to place 8 queens on a Chess board of dimension 8x8 such that they don’t threaten each other i.e. no 2 queens share the same row, column and diagonal. There are only 92 solutions which meet the criteria out of 16,777,216 possible combinations.
+There are many applications where Genetic Algorithm can be used especially where one does not know the exact solution and how to find it. 
+One such problem is '8 Queens' puzzle. The objective here is to place 8 queens on a Chess board of dimension 8x8 such that they don’t threaten
+each other i.e. no 2 queens share the same row, column and diagonal. There are only 92 solutions which meet the criteria out of 16,777,216 possible combinations.
 """
 
 import random
